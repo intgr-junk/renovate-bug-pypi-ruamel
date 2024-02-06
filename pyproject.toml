@@ -7,8 +7,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-ruamel-yaml = "^0.18.5"
-ruamel-yaml-clib = "^0.2.8"
+"ruamel.yaml" = "^0.18.5"
+"ruamel.yaml.clib" = "^0.2.8"
 requests = "^2.31.0"
 
 
