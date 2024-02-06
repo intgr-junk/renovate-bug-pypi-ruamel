@@ -11,6 +11,11 @@ files = [
     {file = "certifi-2024.2.2.tar.gz", hash = "sha256:0569859f95fc761b18b45ef421b1290a0f65f147e92a1e5eb3e635f9a5e4e66f"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://pypi.org/simple"
+reference = "pypi-simple"
+
 [[package]]
 name = "charset-normalizer"
 version = "3.3.2"
@@ -110,6 +115,11 @@ files = [
     {file = "charset_normalizer-3.3.2-py3-none-any.whl", hash = "sha256:3e4d1f6587322d2788836a99c69062fbb091331ec940e02d12d179c1d53e25fc"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://pypi.org/simple"
+reference = "pypi-simple"
+
 [[package]]
 name = "idna"
 version = "3.6"
@@ -120,6 +130,11 @@ files = [
     {file = "idna-3.6-py3-none-any.whl", hash = "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f"},
     {file = "idna-3.6.tar.gz", hash = "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca"},
 ]
+
+[package.source]
+type = "legacy"
+url = "https://pypi.org/simple"
+reference = "pypi-simple"
 
 [[package]]
 name = "requests"
@@ -142,6 +157,11 @@ urllib3 = ">=1.21.1,<3"
 socks = ["PySocks (>=1.5.6,!=1.5.7)"]
 use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
+[package.source]
+type = "legacy"
+url = "https://pypi.org/simple"
+reference = "pypi-simple"
+
 [[package]]
 name = "ruamel-yaml"
 version = "0.18.5"
@@ -159,6 +179,11 @@ files = [
 [package.extras]
 docs = ["mercurial (>5.7)", "ryd"]
 jinja2 = ["ruamel.yaml.jinja2 (>=0.2)"]
+
+[package.source]
+type = "legacy"
+url = "https://pypi.org/simple"
+reference = "pypi-simple"
 
 [[package]]
 name = "ruamel-yaml-clib"
@@ -219,6 +244,11 @@ files = [
     {file = "ruamel.yaml.clib-0.2.8.tar.gz", hash = "sha256:beb2e0404003de9a4cab9753a8805a8fe9320ee6673136ed7f04255fe60bb512"},
 ]
 
+[package.source]
+type = "legacy"
+url = "https://pypi.org/simple"
+reference = "pypi-simple"
+
 [[package]]
 name = "urllib3"
 version = "2.2.0"
@@ -236,7 +266,12 @@ h2 = ["h2 (>=4,<5)"]
 socks = ["pysocks (>=1.5.6,!=1.5.7,<2.0)"]
 zstd = ["zstandard (>=0.18.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://pypi.org/simple"
+reference = "pypi-simple"
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "b1b1bd0f98ab95ce22104d8a876f93324a3f826d3b0dc46e847aa46ad035f9cb"
+content-hash = "282fff32759868ed910d8ca54ce50f3a2811feb27368c215ea120b0b8dbc19a8"

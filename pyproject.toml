@@ -5,12 +5,16 @@ description = ""
 authors = ["Marti Raudsepp <marti@juffo.org>"]
 readme = "README.md"
 
+[[tool.poetry.source]]
+name = "pypi-simple"
+url = "https://pypi.org/simple/"
+priority = "default"
+
 [tool.poetry.dependencies]
 python = "^3.9"
 "ruamel.yaml" = "^0.18.5"
 "ruamel.yaml.clib" = "^0.2.8"
 requests = "^2.31.0"
-
 
 [build-system]
 requires = ["poetry-core"]
