@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "renovate-bug-pypi-ruamel"
+version = "0.1.0"
+description = ""
+authors = ["Marti Raudsepp <marti@juffo.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ruamel-yaml = "^0.18.5"
+ruamel-yaml-clib = "^0.2.8"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
